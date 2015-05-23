@@ -14,6 +14,8 @@
 		F05FDEE31B1118F80093AA82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEE21B1118F80093AA82 /* Images.xcassets */; };
 		F05FDEE61B1118F80093AA82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEE41B1118F80093AA82 /* LaunchScreen.xib */; };
 		F05FDEF21B1118F80093AA82 /* Autobar_v01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FDEF11B1118F80093AA82 /* Autobar_v01Tests.swift */; };
+		F05FDEFC1B1119E40093AA82 /* dangerousman.png in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEFB1B1119E40093AA82 /* dangerousman.png */; };
+		F05FDEFE1B1119F90093AA82 /* autoBG-1440.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEFD1B1119F90093AA82 /* autoBG-1440.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F05FDEEB1B1118F80093AA82 /* Autobar v01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autobar v01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05FDEF01B1118F80093AA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F05FDEF11B1118F80093AA82 /* Autobar_v01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autobar_v01Tests.swift; sourceTree = "<group>"; };
+		F05FDEFB1B1119E40093AA82 /* dangerousman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangerousman.png; sourceTree = "<group>"; };
+		F05FDEFD1B1119F90093AA82 /* autoBG-1440.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "autoBG-1440.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				F05FDEE21B1118F80093AA82 /* Images.xcassets */,
 				F05FDEE41B1118F80093AA82 /* LaunchScreen.xib */,
 				F05FDEDA1B1118F80093AA82 /* Autobar_v01.xcdatamodeld */,
+				F05FDEFD1B1119F90093AA82 /* autoBG-1440.jpg */,
+				F05FDEFB1B1119E40093AA82 /* dangerousman.png */,
 				F05FDED61B1118F80093AA82 /* Supporting Files */,
 			);
 			path = "Autobar v01";
@@ -198,6 +204,8 @@
 				F05FDEE11B1118F80093AA82 /* Main.storyboard in Resources */,
 				F05FDEE61B1118F80093AA82 /* LaunchScreen.xib in Resources */,
 				F05FDEE31B1118F80093AA82 /* Images.xcassets in Resources */,
+				F05FDEFE1B1119F90093AA82 /* autoBG-1440.jpg in Resources */,
+				F05FDEFC1B1119E40093AA82 /* dangerousman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
