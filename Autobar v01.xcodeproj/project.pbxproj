@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F05FDED91B1118F80093AA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FDED81B1118F80093AA82 /* AppDelegate.swift */; };
+		F05FDEDC1B1118F80093AA82 /* Autobar_v01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F05FDEDA1B1118F80093AA82 /* Autobar_v01.xcdatamodeld */; };
+		F05FDEDE1B1118F80093AA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FDEDD1B1118F80093AA82 /* ViewController.swift */; };
+		F05FDEE11B1118F80093AA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEDF1B1118F80093AA82 /* Main.storyboard */; };
+		F05FDEE31B1118F80093AA82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEE21B1118F80093AA82 /* Images.xcassets */; };
+		F05FDEE61B1118F80093AA82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05FDEE41B1118F80093AA82 /* LaunchScreen.xib */; };
+		F05FDEF21B1118F80093AA82 /* Autobar_v01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FDEF11B1118F80093AA82 /* Autobar_v01Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F05FDEEC1B1118F80093AA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05FDECB1B1118F80093AA82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F05FDED21B1118F80093AA82;
+			remoteInfo = "Autobar v01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F05FDED31B1118F80093AA82 /* Autobar v01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autobar v01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05FDED71B1118F80093AA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05FDED81B1118F80093AA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F05FDEDB1B1118F80093AA82 /* Autobar_v01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Autobar_v01.xcdatamodel; sourceTree = "<group>"; };
+		F05FDEDD1B1118F80093AA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F05FDEE01B1118F80093AA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05FDEE21B1118F80093AA82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F05FDEE51B1118F80093AA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F05FDEEB1B1118F80093AA82 /* Autobar v01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autobar v01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05FDEF01B1118F80093AA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05FDEF11B1118F80093AA82 /* Autobar_v01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autobar_v01Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05FDED01B1118F80093AA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05FDEE81B1118F80093AA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05FDECA1B1118F80093AA82 = {
+			isa = PBXGroup;
+			children = (
+				F05FDED51B1118F80093AA82 /* Autobar v01 */,
+				F05FDEEE1B1118F80093AA82 /* Autobar v01Tests */,
+				F05FDED41B1118F80093AA82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05FDED41B1118F80093AA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05FDED31B1118F80093AA82 /* Autobar v01.app */,
+				F05FDEEB1B1118F80093AA82 /* Autobar v01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05FDED51B1118F80093AA82 /* Autobar v01 */ = {
+			isa = PBXGroup;
+			children = (
+				F05FDED81B1118F80093AA82 /* AppDelegate.swift */,
+				F05FDEDD1B1118F80093AA82 /* ViewController.swift */,
+				F05FDEDF1B1118F80093AA82 /* Main.storyboard */,
+				F05FDEE21B1118F80093AA82 /* Images.xcassets */,
+				F05FDEE41B1118F80093AA82 /* LaunchScreen.xib */,
+				F05FDEDA1B1118F80093AA82 /* Autobar_v01.xcdatamodeld */,
+				F05FDED61B1118F80093AA82 /* Supporting Files */,
+			);
+			path = "Autobar v01";
+			sourceTree = "<group>";
+		};
+		F05FDED61B1118F80093AA82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05FDED71B1118F80093AA82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F05FDEEE1B1118F80093AA82 /* Autobar v01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F05FDEF11B1118F80093AA82 /* Autobar_v01Tests.swift */,
+				F05FDEEF1B1118F80093AA82 /* Supporting Files */,
+			);
+			path = "Autobar v01Tests";
+			sourceTree = "<group>";
+		};
+		F05FDEEF1B1118F80093AA82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05FDEF01B1118F80093AA82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05FDED21B1118F80093AA82 /* Autobar v01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05FDEF51B1118F80093AA82 /* Build configuration list for PBXNativeTarget "Autobar v01" */;
+			buildPhases = (
+				F05FDECF1B1118F80093AA82 /* Sources */,
+				F05FDED01B1118F80093AA82 /* Frameworks */,
+				F05FDED11B1118F80093AA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autobar v01";
+			productName = "Autobar v01";
+			productReference = F05FDED31B1118F80093AA82 /* Autobar v01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F05FDEEA1B1118F80093AA82 /* Autobar v01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05FDEF81B1118F80093AA82 /* Build configuration list for PBXNativeTarget "Autobar v01Tests" */;
+			buildPhases = (
+				F05FDEE71B1118F80093AA82 /* Sources */,
+				F05FDEE81B1118F80093AA82 /* Frameworks */,
+				F05FDEE91B1118F80093AA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F05FDEED1B1118F80093AA82 /* PBXTargetDependency */,
+			);
+			name = "Autobar v01Tests";
+			productName = "Autobar v01Tests";
+			productReference = F05FDEEB1B1118F80093AA82 /* Autobar v01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05FDECB1B1118F80093AA82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Autobar;
+				TargetAttributes = {
+					F05FDED21B1118F80093AA82 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F05FDEEA1B1118F80093AA82 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F05FDED21B1118F80093AA82;
+					};
+				};
+			};
+			buildConfigurationList = F05FDECE1B1118F80093AA82 /* Build configuration list for PBXProject "Autobar v01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F05FDECA1B1118F80093AA82;
+			productRefGroup = F05FDED41B1118F80093AA82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05FDED21B1118F80093AA82 /* Autobar v01 */,
+				F05FDEEA1B1118F80093AA82 /* Autobar v01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05FDED11B1118F80093AA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FDEE11B1118F80093AA82 /* Main.storyboard in Resources */,
+				F05FDEE61B1118F80093AA82 /* LaunchScreen.xib in Resources */,
+				F05FDEE31B1118F80093AA82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05FDEE91B1118F80093AA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05FDECF1B1118F80093AA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FDEDE1B1118F80093AA82 /* ViewController.swift in Sources */,
+				F05FDEDC1B1118F80093AA82 /* Autobar_v01.xcdatamodeld in Sources */,
+				F05FDED91B1118F80093AA82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05FDEE71B1118F80093AA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FDEF21B1118F80093AA82 /* Autobar_v01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F05FDEED1B1118F80093AA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F05FDED21B1118F80093AA82 /* Autobar v01 */;
+			targetProxy = F05FDEEC1B1118F80093AA82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F05FDEDF1B1118F80093AA82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05FDEE01B1118F80093AA82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F05FDEE41B1118F80093AA82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05FDEE51B1118F80093AA82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05FDEF31B1118F80093AA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F05FDEF41B1118F80093AA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05FDEF61B1118F80093AA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Autobar v01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F05FDEF71B1118F80093AA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Autobar v01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F05FDEF91B1118F80093AA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Autobar v01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autobar v01.app/Autobar v01";
+			};
+			name = Debug;
+		};
+		F05FDEFA1B1118F80093AA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Autobar v01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autobar v01.app/Autobar v01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05FDECE1B1118F80093AA82 /* Build configuration list for PBXProject "Autobar v01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05FDEF31B1118F80093AA82 /* Debug */,
+				F05FDEF41B1118F80093AA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05FDEF51B1118F80093AA82 /* Build configuration list for PBXNativeTarget "Autobar v01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05FDEF61B1118F80093AA82 /* Debug */,
+				F05FDEF71B1118F80093AA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F05FDEF81B1118F80093AA82 /* Build configuration list for PBXNativeTarget "Autobar v01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05FDEF91B1118F80093AA82 /* Debug */,
+				F05FDEFA1B1118F80093AA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F05FDEDA1B1118F80093AA82 /* Autobar_v01.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F05FDEDB1B1118F80093AA82 /* Autobar_v01.xcdatamodel */,
+			);
+			currentVersion = F05FDEDB1B1118F80093AA82 /* Autobar_v01.xcdatamodel */;
+			path = Autobar_v01.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F05FDECB1B1118F80093AA82 /* Project object */;
+}
